@@ -1,0 +1,24 @@
+{
+  "Version": 1,
+  "Hash": "ZqOziUsEzSMlsoAT8nx9fWN4wBevOsxgnX7LRFwJLTk=",
+  "Source": "MediaTracker.Server",
+  "BasePath": "_content/MediaTracker.Server",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "E:\\MediaTracker\\mediatracker.client\\mediatracker.client.esproj",
+      "Version": 2,
+      "Source": "mediatracker.client",
+      "GetPublishAssetsTargets": "GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained"
+    }
+  ],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

@@ -1,0 +1,11 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "MediaTracker.Server\\MediaTracker.Server.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

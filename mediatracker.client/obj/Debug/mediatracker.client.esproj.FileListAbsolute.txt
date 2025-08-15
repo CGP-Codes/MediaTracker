@@ -1,0 +1,1 @@
+E:\MediaTracker\mediatracker.client\obj\Debug\mediatracker.client.esproj.CoreCompileInputs.cache
