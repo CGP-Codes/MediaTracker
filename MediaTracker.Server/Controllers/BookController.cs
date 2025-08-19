@@ -2,6 +2,8 @@
 using MediaTracker.Server.Models;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+using System.Reflection;
 
 namespace MediaTracker.Server.Controllers
 {
@@ -24,11 +26,18 @@ namespace MediaTracker.Server.Controllers
             try
             {
                 var bookCount = _context.Books.Count();
-                var bookList = _context.Books.Skip(pageIndex * pageSize).Take(pageSize).ToList();
+                var bookList = _context.Books.Skip(pageIndex * pageSize).Take(pageSize).Select(x => new BookViewListModel
+                {
+                    Id = x.Id,
+                    Name = x.Name,
+                    AuthorFirst = x.AuthorFirst,
+                    AuthorLast = x.AuthorLast,
+                    SeriesId = x.SeriesId,
+                }).ToList();
 
                 response.Status = true;
                 response.Message = "Success";
-                response.Data = new { Movies = bookList, Count = bookCount };
+                response.Data = new { Books = bookList, Count = bookCount };
 
                 return Ok(response);
             }
@@ -49,7 +58,17 @@ namespace MediaTracker.Server.Controllers
 
             try
             {
-                var book = _context.Books.Where(x => x.BookId == id).FirstOrDefault();
+                var book = _context.Books.Where(x => x.Id == id).Select(x => new BookDetailsViewModel
+                {
+                    Id = x.Id,
+                    Name = x.Name,
+                    AuthorFirst = x.AuthorFirst,
+                    AuthorLast = x.AuthorLast,
+                    SeriesId = x.SeriesId,
+                    ISBN = x.ISBN,
+                    PublicationDate = x.PublicationDate,
+                    Publisher = x.Publisher
+                }).FirstOrDefault();
 
                 if (book == null) 
                 { 
@@ -84,15 +103,143 @@ namespace MediaTracker.Server.Controllers
             {
                 if (ModelState.IsValid) 
                 {
-                    // This may not work - there will be books that have no series
+                    // This may not work - there will be books that have no series 
                     var series = _context.aSeries.Where(x => model.Series.Equals(x.Id)).FirstOrDefault();
 
+                    if (series == null)
+                    {
+                        // figure out how to handle stand-alone books
+                    }
+
+                    var postedModel = new Entities.Book()
+                    {
+                        Name = model.Name,
+                        AuthorFirst = model.AuthorFirst,
+                        AuthorLast = model.AuthorLast,
+                        ISBN = model.ISBN,
+                        PublicationDate = model.PublicationDate,
+                        Publisher = model.Publisher,
+                        Series = series
+                    };
+
+                    _context.Books.Add(postedModel);
+                    _context.SaveChanges();
+
+                    var responseData = new BookDetailsViewModel
+                    {
+                        Id = postedModel.Id,
+                        Name = postedModel.Name,
+                        AuthorFirst = postedModel.AuthorFirst,
+                        AuthorLast = postedModel.AuthorLast,
+                        SeriesId = postedModel.SeriesId,
+                        ISBN = postedModel.ISBN,
+                        PublicationDate = postedModel.PublicationDate,
+                        Publisher = postedModel.Publisher
+                    };
+
+                    response.Status = true;
+                    response.Message = "Created successfully";
+                    response.Data = responseData;
+
+                    return Ok(response);
+                }
+                else 
+                {
+                    response.Status = false;
+                    response.Message = "Validation failed";
+                    response.Data = ModelState;
+
+                    return BadRequest(response);
                 }
             }
-            catch (Exception)
+            catch (Exception ex)
             {
+                response.Status = false;
+                response.Message = "Something went wrong";
 
-                throw;
+                return BadRequest(response);
+            }
+        }
+
+        [HttpPut]
+        public IActionResult Put(CreateBookViewModel model)
+        {
+            BaseResponseModel response = new BaseResponseModel();
+
+            try
+            {
+                // Book Id must be valid
+                if (model.Id <= 0)
+                {
+                    response.Status = false;
+                    response.Message = "Invalid Book record";
+
+                    return BadRequest(response );
+
+                }
+                if (ModelState.IsValid)
+                {
+                    // This may not work - there will be books that have no series 
+                    var series = _context.aSeries.Where(x => model.Series.Equals(x.Id)).FirstOrDefault();
+
+                    if (series == null)
+                    {
+                        // TODO: figure out how to handle stand-alone books
+                    }
+
+                    var bookDetails = _context.Books.Include(x => x.Series).Where(x => x.Id == model.Id).FirstOrDefault();
+
+                    if (bookDetails == null) 
+                    {
+                        response.Status = false;
+                        response.Message = "Invalid Book record";
+
+                        return BadRequest(response);
+                    }
+
+                    bookDetails.Name = model.Name;
+                    bookDetails.AuthorFirst = model.AuthorFirst;
+                    bookDetails.AuthorLast = model.AuthorLast;
+                    bookDetails.ISBN = model.ISBN;
+                    bookDetails.PublicationDate = model.PublicationDate;
+                    bookDetails.Publisher = model.Publisher;
+                    bookDetails.SeriesId = model.SeriesId;
+
+                    _context.SaveChanges();
+
+                    var responseData = new BookDetailsViewModel
+                    {
+                        Id = bookDetails.Id,
+                        Name = bookDetails.Name,
+                        AuthorFirst = bookDetails.AuthorFirst,
+                        AuthorLast = bookDetails.AuthorLast,
+                        SeriesId = bookDetails.SeriesId,
+                        ISBN = bookDetails.ISBN,
+                        PublicationDate = bookDetails.PublicationDate,
+                        Publisher = bookDetails.Publisher
+                    };
+
+                    response.Status = true;
+                    response.Message = "Created successfully";
+                    response.Data = responseData;
+
+                    return Ok(response);
+                }
+                else
+                {
+                    response.Status = false;
+                    response.Message = "Validation failed";
+                    response.Data = ModelState;
+
+                    return BadRequest(response);
+                }
+            }
+            catch (Exception ex)
+            {
+                response.Status = false;
+                response.Message = "Something went wrong";
+
+                return BadRequest(response);
             }
         }
     }

@@ -3,7 +3,7 @@
 "ServerUrl": "https://localhost:58315",
 "RedirectUrl": "",
 "LaunchCommand": "npm run dev",
-"WorkingDirectory": "E:\\MediaTracker\\mediatracker.server\\..\\mediatracker.client",
+"WorkingDirectory": "E:\\MediaTracker\\MediaTracker.Server\\..\\mediatracker.client",
 "MaxTimeoutInSeconds": "120",
 "KeepRunning": "false"
 }

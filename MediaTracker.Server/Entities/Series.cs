@@ -15,6 +15,5 @@
         public DateTime CreatedDate { get; set; } = DateTime.Now;
         public DateTime? ModifiedDate { get; set; }
 
-        public IList<Book> Books { get; set; }
     }
 }
