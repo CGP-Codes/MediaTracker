@@ -3,32 +3,44 @@
   "WorkspaceRootPath": "E:\\MediaTracker\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{57B93F36-E619-4214-9936-16B0DCF2BCB8}|MediaTracker.Server\\MediaTracker.Server.csproj|e:\\mediatracker\\mediatracker.server\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{57B93F36-E619-4214-9936-16B0DCF2BCB8}|MediaTracker.Server\\MediaTracker.Server.csproj|solutionrelative:mediatracker.server\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{57B93F36-E619-4214-9936-16B0DCF2BCB8}|MediaTracker.Server\\MediaTracker.Server.csproj|e:\\mediatracker\\mediatracker.server\\models\\seriesdetailsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57B93F36-E619-4214-9936-16B0DCF2BCB8}|MediaTracker.Server\\MediaTracker.Server.csproj|solutionrelative:mediatracker.server\\models\\seriesdetailsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{57B93F36-E619-4214-9936-16B0DCF2BCB8}|MediaTracker.Server\\MediaTracker.Server.csproj|e:\\mediatracker\\mediatracker.server\\models\\bookviewlistmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{57B93F36-E619-4214-9936-16B0DCF2BCB8}|MediaTracker.Server\\MediaTracker.Server.csproj|solutionrelative:mediatracker.server\\models\\bookviewlistmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{57B93F36-E619-4214-9936-16B0DCF2BCB8}|MediaTracker.Server\\MediaTracker.Server.csproj|e:\\mediatracker\\mediatracker.server\\models\\bookdetailsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{57B93F36-E619-4214-9936-16B0DCF2BCB8}|MediaTracker.Server\\MediaTracker.Server.csproj|solutionrelative:mediatracker.server\\models\\bookdetailsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{57B93F36-E619-4214-9936-16B0DCF2BCB8}|MediaTracker.Server\\MediaTracker.Server.csproj|e:\\mediatracker\\mediatracker.server\\models\\createbookviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{57B93F36-E619-4214-9936-16B0DCF2BCB8}|MediaTracker.Server\\MediaTracker.Server.csproj|solutionrelative:mediatracker.server\\models\\createbookviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{57B93F36-E619-4214-9936-16B0DCF2BCB8}|MediaTracker.Server\\MediaTracker.Server.csproj|e:\\mediatracker\\mediatracker.server\\entities\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{57B93F36-E619-4214-9936-16B0DCF2BCB8}|MediaTracker.Server\\MediaTracker.Server.csproj|solutionrelative:mediatracker.server\\entities\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{57B93F36-E619-4214-9936-16B0DCF2BCB8}|MediaTracker.Server\\MediaTracker.Server.csproj|e:\\mediatracker\\mediatracker.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57B93F36-E619-4214-9936-16B0DCF2BCB8}|MediaTracker.Server\\MediaTracker.Server.csproj|solutionrelative:mediatracker.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{57B93F36-E619-4214-9936-16B0DCF2BCB8}|MediaTracker.Server\\MediaTracker.Server.csproj|e:\\mediatracker\\mediatracker.server\\entities\\series.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{57B93F36-E619-4214-9936-16B0DCF2BCB8}|MediaTracker.Server\\MediaTracker.Server.csproj|solutionrelative:mediatracker.server\\entities\\series.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{57B93F36-E619-4214-9936-16B0DCF2BCB8}|MediaTracker.Server\\MediaTracker.Server.csproj|e:\\mediatracker\\mediatracker.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{57B93F36-E619-4214-9936-16B0DCF2BCB8}|MediaTracker.Server\\MediaTracker.Server.csproj|solutionrelative:mediatracker.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{57B93F36-E619-4214-9936-16B0DCF2BCB8}|MediaTracker.Server\\MediaTracker.Server.csproj|e:\\mediatracker\\mediatracker.server\\controllers\\seriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57B93F36-E619-4214-9936-16B0DCF2BCB8}|MediaTracker.Server\\MediaTracker.Server.csproj|solutionrelative:mediatracker.server\\controllers\\seriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57B93F36-E619-4214-9936-16B0DCF2BCB8}|MediaTracker.Server\\MediaTracker.Server.csproj|e:\\mediatracker\\mediatracker.server\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57B93F36-E619-4214-9936-16B0DCF2BCB8}|MediaTracker.Server\\MediaTracker.Server.csproj|solutionrelative:mediatracker.server\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57B93F36-E619-4214-9936-16B0DCF2BCB8}|MediaTracker.Server\\MediaTracker.Server.csproj|e:\\mediatracker\\mediatracker.server\\models\\bookdetailsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57B93F36-E619-4214-9936-16B0DCF2BCB8}|MediaTracker.Server\\MediaTracker.Server.csproj|solutionrelative:mediatracker.server\\models\\bookdetailsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57B93F36-E619-4214-9936-16B0DCF2BCB8}|MediaTracker.Server\\MediaTracker.Server.csproj|e:\\mediatracker\\mediatracker.server\\models\\bookviewlistmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57B93F36-E619-4214-9936-16B0DCF2BCB8}|MediaTracker.Server\\MediaTracker.Server.csproj|solutionrelative:mediatracker.server\\models\\bookviewlistmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57B93F36-E619-4214-9936-16B0DCF2BCB8}|MediaTracker.Server\\MediaTracker.Server.csproj|e:\\mediatracker\\mediatracker.server\\models\\createbookviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57B93F36-E619-4214-9936-16B0DCF2BCB8}|MediaTracker.Server\\MediaTracker.Server.csproj|solutionrelative:mediatracker.server\\models\\createbookviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57B93F36-E619-4214-9936-16B0DCF2BCB8}|MediaTracker.Server\\MediaTracker.Server.csproj|e:\\mediatracker\\mediatracker.server\\models\\seriesviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57B93F36-E619-4214-9936-16B0DCF2BCB8}|MediaTracker.Server\\MediaTracker.Server.csproj|solutionrelative:mediatracker.server\\models\\seriesviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57B93F36-E619-4214-9936-16B0DCF2BCB8}|MediaTracker.Server\\MediaTracker.Server.csproj|e:\\mediatracker\\mediatracker.server\\entities\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57B93F36-E619-4214-9936-16B0DCF2BCB8}|MediaTracker.Server\\MediaTracker.Server.csproj|solutionrelative:mediatracker.server\\entities\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{57B93F36-E619-4214-9936-16B0DCF2BCB8}|MediaTracker.Server\\MediaTracker.Server.csproj|e:\\mediatracker\\mediatracker.server\\models\\baseresponsemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -54,11 +66,48 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
+              "Title": "SeriesDetailsViewModel.cs",
+              "DocumentMoniker": "E:\\MediaTracker\\MediaTracker.Server\\Models\\SeriesDetailsViewModel.cs",
+              "RelativeDocumentMoniker": "MediaTracker.Server\\Models\\SeriesDetailsViewModel.cs",
+              "ToolTip": "E:\\MediaTracker\\MediaTracker.Server\\Models\\SeriesDetailsViewModel.cs",
+              "RelativeToolTip": "MediaTracker.Server\\Models\\SeriesDetailsViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-19T20:06:08.141Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "SeriesViewModel.cs",
+              "DocumentMoniker": "E:\\MediaTracker\\MediaTracker.Server\\Models\\SeriesViewModel.cs",
+              "RelativeDocumentMoniker": "MediaTracker.Server\\Models\\SeriesViewModel.cs",
+              "ToolTip": "E:\\MediaTracker\\MediaTracker.Server\\Models\\SeriesViewModel.cs",
+              "RelativeToolTip": "MediaTracker.Server\\Models\\SeriesViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-19T15:57:45.119Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SeriesController.cs",
+              "DocumentMoniker": "E:\\MediaTracker\\MediaTracker.Server\\Controllers\\SeriesController.cs",
+              "RelativeDocumentMoniker": "MediaTracker.Server\\Controllers\\SeriesController.cs",
+              "ToolTip": "E:\\MediaTracker\\MediaTracker.Server\\Controllers\\SeriesController.cs",
+              "RelativeToolTip": "MediaTracker.Server\\Controllers\\SeriesController.cs",
+              "ViewState": "AgIAAFUAAAAAAAAAAIAmwHUAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-19T14:53:32.699Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "BookDetailsViewModel.cs",
               "DocumentMoniker": "E:\\MediaTracker\\MediaTracker.Server\\Models\\BookDetailsViewModel.cs",
               "RelativeDocumentMoniker": "MediaTracker.Server\\Models\\BookDetailsViewModel.cs",
@@ -70,7 +119,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "BookViewListModel.cs",
               "DocumentMoniker": "E:\\MediaTracker\\MediaTracker.Server\\Models\\BookViewListModel.cs",
               "RelativeDocumentMoniker": "MediaTracker.Server\\Models\\BookViewListModel.cs",
@@ -82,7 +131,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
               "Title": "appsettings.Development.json",
               "DocumentMoniker": "E:\\MediaTracker\\MediaTracker.Server\\appsettings.Development.json",
               "RelativeDocumentMoniker": "MediaTracker.Server\\appsettings.Development.json",
@@ -94,19 +143,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "CreateBookViewModel.cs",
               "DocumentMoniker": "E:\\MediaTracker\\MediaTracker.Server\\Models\\CreateBookViewModel.cs",
               "RelativeDocumentMoniker": "MediaTracker.Server\\Models\\CreateBookViewModel.cs",
               "ToolTip": "E:\\MediaTracker\\MediaTracker.Server\\Models\\CreateBookViewModel.cs",
               "RelativeToolTip": "MediaTracker.Server\\Models\\CreateBookViewModel.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAIAfwAwAAAAzAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-14T20:33:40.484Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "BaseResponseModel.cs",
               "DocumentMoniker": "E:\\MediaTracker\\MediaTracker.Server\\Models\\BaseResponseModel.cs",
               "RelativeDocumentMoniker": "MediaTracker.Server\\Models\\BaseResponseModel.cs",
@@ -118,32 +167,31 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "BookController.cs",
               "DocumentMoniker": "E:\\MediaTracker\\MediaTracker.Server\\Controllers\\BookController.cs",
               "RelativeDocumentMoniker": "MediaTracker.Server\\Controllers\\BookController.cs",
               "ToolTip": "E:\\MediaTracker\\MediaTracker.Server\\Controllers\\BookController.cs",
               "RelativeToolTip": "MediaTracker.Server\\Controllers\\BookController.cs",
-              "ViewState": "AgIAAMAAAAAAAAAAAAAewNoAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAJoAAAAAAAAAAAAAAKEAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-14T20:02:54.422Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-14T20:02:54.422Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "E:\\MediaTracker\\MediaTracker.Server\\Program.cs",
               "RelativeDocumentMoniker": "MediaTracker.Server\\Program.cs",
               "ToolTip": "E:\\MediaTracker\\MediaTracker.Server\\Program.cs",
               "RelativeToolTip": "MediaTracker.Server\\Program.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAIAnwCkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAAArwCkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-14T19:46:54.572Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 13,
               "Title": "MediaTracker.Server.csproj",
               "DocumentMoniker": "E:\\MediaTracker\\MediaTracker.Server\\MediaTracker.Server.csproj",
               "RelativeDocumentMoniker": "MediaTracker.Server\\MediaTracker.Server.csproj",
@@ -151,11 +199,12 @@
               "RelativeToolTip": "MediaTracker.Server\\MediaTracker.Server.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-08-14T19:40:27.478Z"
+              "WhenOpened": "2025-08-14T19:40:27.478Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 12,
               "Title": "LibraryDbContext.cs",
               "DocumentMoniker": "E:\\MediaTracker\\MediaTracker.Server\\Data\\LibraryDbContext.cs",
               "RelativeDocumentMoniker": "MediaTracker.Server\\Data\\LibraryDbContext.cs",
@@ -167,19 +216,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "Series.cs",
               "DocumentMoniker": "E:\\MediaTracker\\MediaTracker.Server\\Entities\\Series.cs",
               "RelativeDocumentMoniker": "MediaTracker.Server\\Entities\\Series.cs",
               "ToolTip": "E:\\MediaTracker\\MediaTracker.Server\\Entities\\Series.cs",
               "RelativeToolTip": "MediaTracker.Server\\Entities\\Series.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAD+vxMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-14T19:32:23.145Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 9,
               "Title": "Book.cs",
               "DocumentMoniker": "E:\\MediaTracker\\MediaTracker.Server\\Entities\\Book.cs",
               "RelativeDocumentMoniker": "MediaTracker.Server\\Entities\\Book.cs",

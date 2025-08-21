@@ -5,6 +5,10 @@
       {
         "Path": "MediaTracker.Server\\MediaTracker.Server.csproj",
         "Action": "Start"
+      },
+      {
+        "Path": "mediatracker.client\\mediatracker.client.esproj",
+        "Action": "Start"
       }
     ]
   }

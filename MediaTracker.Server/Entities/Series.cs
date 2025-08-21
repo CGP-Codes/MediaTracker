@@ -2,10 +2,10 @@
 {
     public class Series
     {
-        public Series() 
+        /*public Series() 
         {
             Books = new List<Book>();
-        }
+        }*/
 
         public int Id { get; set; }
         public string Name { get; set; }
